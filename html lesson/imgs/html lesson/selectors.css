@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/* #header {
+   background: #111;
+} */
+
+a {
+    text-decoration: none;
+    color: #111;
+    transition: all 2s;
+    padding-left: 15%;
+}
+
+a:hover {
+    color: #907;
+}
+
+a:active {
+    color: blue;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+ 
+.navv {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navv li {
+
+
+border-bottom: 1px solid #fff222;
+margin-bottom: 11px;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+   
+    
+}
+
+.table th {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #fff;
+   background: #325e33;
+}
+
+.table td {
+    text-transform: capitalize;
+    background: #325e33;
+    color: #fff;
+    
+}
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: azure;
+    background: #067e0a;
+}
+
+
+.btn {
+    background: #111;
+    color: #fff;
+    border-radius: 6%;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .8s;
+    color: goldenrod;
+}
+
+.form-group label{
+    display: block;
+    color: rgb(81, 137, 185);
+    font-size: 14px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    color: #111;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row, .form-group {
+    
+    width: 50%;
+    margin-right: 20px;
+}
+
+.form-row, .form-group:last-child{
+    margin: 0;
+} 
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.container {
+    width: 800px;
+    margin: 40px auto;
+}
+
+.containerrr {
+    
+    display: flex;
+    
+}
+
+@media (max-width:1400px)  {
+    .containerrr {
+        display: block;
+        text-align: center;
+    }
+}
+.container img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 14%;
+}
+
+.text-info {
+    padding: 10px;
+    
+    color: rgb(0, 0, 0);
+    font-size: large;
+}   
+
+.text-info p {
+    text-transform: capitalize;
+    
+    
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    width: auto;
+    background: #fff;
+    border-radius: 30px;
+   
+
+}
+
+.bg-blue {
+    background: #6859d5;
+   
+}
+
+.bg-green {
+    background: #90d492;
+}
+
+.bg-yellow {
+    background: #ddc437;
+}
